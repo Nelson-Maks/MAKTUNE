@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 10px 0;
+    
+}
+
+header h3{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+header h3 span{
+    color: orange;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0 10px;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.banner{
+    width: 100%;
+    background: url(./images/maktune\ banner.png);
+    background-position: center;
+    background-size: 100%;
+    height: 220px;
+   
+}
+
+.banner button{
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+.banner .btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 155px 30px 0 0;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .top .img-frame{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 300px;
+
+    
+}
+
+main .top .img-frame img{
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+    
+}
+
+main .about-us{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+main .top .right{
+    width: 50%;
+    font-size: 11px;
+    padding: 5px 10px 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .top .mission{
+    width: 50%;
+    margin-top: 20px;
+}
+
+main .pro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+main .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin-top: 10px;
+    gap: 0 10px;
+    padding: 20px;
+
+}
+
+
+main .bottom img{
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    border: 2px solid white;
+    
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    font-size: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 0 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 5px;
+
+}
+
+footer .image img{
+    width: 11px;
+    height: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 720px){
+    body{
+        width: 100%;
+        height: 100vh;
+        background-color: whitesmoke;
+    }
+
+    header{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        gap: 10px 0;
+        
+    }
+
+    header h3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 100;
+    }
+
+    header h3 span{
+        color: orange;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 10px;
+        padding-bottom: 10px;
+    }
+
+    nav a{
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+
+    .banner{
+        width: 100%;
+        background: url(./images/maktune\ banner.png);
+        background-position: center;
+        background-size: 100%;
+        height: 220px;
+       
+    }
+
+    .banner button{
+        width: fit-content;
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 100;
+        color: white;
+        background-color: orange;
+        border: none;
+    }
+
+    .banner .btn{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 155px 30px 0 0;
+    }
+
+    main{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main .top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    main .top .img-frame{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1px;
+
+
+        
+    }
+
+    main .top .img-frame img{
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        
+    }
+
+    main .about-us{
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        padding: 10px 0 0 10px;
+        justify-content: flex-start;
+    }
+
+    main .top .right{
+        width: 100%;
+        font-size: 11px;
+        padding: 5px 10px 0 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    main .top .mission{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    main .pro{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+
+    main .bottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        margin-top: 10px;
+        gap: 0 10px;
+        padding: 20px;
+
+    }
+
+    main .bottom .back{
+        width: 30px;
+        height: 30px;
+        border: none;
+    }
+
+    main .bottom .front{
+        width: 30px;
+        height: 30px;
+        border: none;
+        
+    }
+
+    main .bottom img{
+        width: 80px;
+        height: 80px;
+        padding: 3px;
+        border: 2px solid white;
+        
+    }
+
+    footer{
+        width: 100%;
+        height: 30px;
+        font-size: 5px;
+        padding: 10px;
+        display: flex;
+        gap: 0 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    footer .image{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0 5px;
+
+    }
+
+    footer .image img{
+        width: 8px;
+        height: 8px;
+    }
+}
